@@ -7,3 +7,56 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+
+.main-container {
+  margin: 0;
+  height: 100%;
+  background-image: url("/images/space.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.container-head-bouble {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color:#D1D4D6;
+  border-radius: 100em;
+  }
+.avatar{
+
+}
+
+
+.head-shot {
+  display: flex;
+  padding: 12em;
+  border-radius: 3em;
+}
+
+
+.bouble-text-triangle {
+ display: flex;
+ border-style : none;
+ flex-direction: column;
+ 
+}
+
+.speach-bouble {
+  width: 30em;
+  height: 2em;
+  padding: 5em;
+  background-color: #555;
+  border-radius: 1em;
+
+}
+
+.triangle {
+display: flex;
+justify-content: center;
+padding-right: 15em;
+color: #D1D4D6;
+}
