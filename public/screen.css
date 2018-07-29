@@ -1,6 +1,8 @@
 html {
   height: 100%;
+  
 }
+
 
 .body p {
   all: none;
@@ -35,9 +37,17 @@ html {
   display: flex;
   padding-left: 12em;
   padding-top: 12em;
-  padding-bottom: 12em;
+  padding-bottom: 20em;
   padding-right: 5em;
+  object-fit: cover;
+  width: 50;
+  height: 50px;
+  border-radius: 2em;
 
+}
+
+.head {
+  border-radius: 1.1em;
 }
 
 
@@ -74,16 +84,42 @@ html {
   }
 
 .text-large {
-  all: none;
+  white-space: nowrap;
   font-size: 2em;
-  align-content: center;
   color: #000000;
+  margin-top: -1.5em;
+  margin-left: -1.5em;
 }
 
 .text-medium {
-  all: none;
+  white-space: nowrap;
   font-size: 1.5em;
-  align-content: center;
   color: #000000;
+  margin-top: -1.25em;
+  margin-left: -2em;
+
 }
 
+/*  Begin second section  */
+
+
+.second-section-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 10em;
+  background-color: #000000;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  
+}
+
+.img2 {
+  width: 225px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.sensei-sense {
+  
