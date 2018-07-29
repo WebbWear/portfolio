@@ -1,16 +1,21 @@
 html {
-  height: 100%;
   
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000000;
 }
 
 
-.body p {
+.body  {
   all: none;
   margin: 0;
   min-height: 100%;
-  font-family: 'Roboto', sans-serif;
+  max-width: 70%;
   font: 7em;
-  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
 }
 
 
@@ -63,7 +68,7 @@ html {
 .speach-bouble {
   display: flex;
   flex-direction: column;
-  width: 25em;
+  width: 30em;
   height: 1.5em;
   padding: 5em;
   background-color: #D1D4D6;
@@ -85,6 +90,8 @@ html {
 
 .text-large {
   white-space: nowrap;
+  font-weight: 999;
+
   font-size: 2em;
   color: #000000;
   margin-top: -1.5em;
@@ -94,13 +101,13 @@ html {
 .text-medium {
   white-space: nowrap;
   font-size: 1.5em;
-  color: #000000;
+  
   margin-top: -1.25em;
   margin-left: -2em;
 
 }
 
-/*  Begin second section  */
+/*  Begin second section of header  */
 
 
 .second-section-container {
@@ -109,17 +116,51 @@ html {
   flex-direction: row;
   width: 100%;
   height: 10em;
-  background-color: #000000;
-  padding-top: 2em;
+  background: linear-gradient(to right, #000000 ,#19272C);  padding-top: 2em;
   padding-bottom: 2em;
   
 }
 
 .img2 {
+  object-fit: cover;
   width: 225px;
   height: 160px;
-  object-fit: cover;
+  border-radius: 1.0125em;
+
 }
 
-.sensei-sense {
+/* second section first paragraph */
+
+.main-container2 {
   
+}
+
+.react {
+  object-fit: cover;
+  width: 100%;
+  height: 5em;
+}
+
+.header-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  width: 100%;
+  height: 5em;
+}
+
+.react-text {
+  color: #000000;
+  padding-left: 1.5em;
+  font-weight: 900;
+  font-size: 1.195em;
+
+}
+
+.react-text-date {
+color: #19272C;
+padding-left: 1.5em;
+margin-bottom: -100em;
+
+}
