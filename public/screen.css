@@ -13,12 +13,9 @@ html {
   max-width: 70%;
   font: 7em;
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto; 
   
 }
-
-
 
 .main-container {
   margin: 0;
@@ -35,6 +32,7 @@ html {
   justify-content: space-around;
   align-items: top;
   border-radius: 100em;
+
   }
 
 
@@ -53,8 +51,8 @@ html {
 
 .head {
   border-radius: 1.1em;
-}
 
+}
 
 .bouble-text-triangle {
  display: flex;
@@ -109,7 +107,6 @@ html {
 
 /*  Begin second section of header  */
 
-
 .second-section-container {
   display: flex;
   justify-content: space-around;
@@ -122,7 +119,6 @@ html {
 }
 
 .img2 {
-  display: flex
   object-fit: cover;
   width: 225px;
   height: 160px;
@@ -130,8 +126,7 @@ html {
 
 }
 
-/* second section first paragraph */
-
+/* 3rd element */
 
 .react {
   object-fit: cover;
@@ -170,7 +165,6 @@ html {
 .container2-body {
   display: flex;
   flex-direction: row;
-  
   background-color: #ffffff;
   width: 100%;
   height: 4em;
@@ -188,9 +182,118 @@ html {
 }
 
 .keep-reading-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 7em;
+  height: 2em;
+  background-color: #3481CF;
+  border-radius: .5em;
 
 }
 
 .keep-reading-text {
+  color: #ffffff;
+  align-content: center;
+  align-items: flex-end;
+}
 
+
+/* 4th element */
+
+.code {
+  object-fit: cover;
+  width: 100%;
+  height: 5em;
+  margin-bottom: -.5em;
+  border-top-right-radius: .5em;
+  border-top-left-radius: .5em;
+}
+
+.header-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  width: 100%;
+  height: 2.5em;
+  padding-bottom: -5em;
+  
+}
+
+.code-text {
+  color: #000000;
+  padding-left: 1.25em;
+  font-weight: 900;
+  font-size: 1.195em;
+  
+}
+
+.code-text-date {
+  color: rgb(148, 150, 151);
+  padding-left: 1.5em;
+  padding-top: .3em;
+}
+
+.container3-body {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100%;
+  height: 4em;
+  padding-bottom: 2.5em; 
+  padding-left: 0em;
+  padding-right: -5em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+
+.code-body-text {
+  padding-left: 1.75em;
+  padding-right: 3em;
+  font-size: .75em;
+}
+
+.keep-reading-container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 7em;
+  height: 2em;
+  background-color: #3481CF;
+  margin-left: 45em;
+  border-radius: .5em;
+
+}
+
+.keep-reading-text2 {
+  color: #ffffff;
+  align-content: center;
+  align-items: flex-end;
+}
+
+/* 5th element */
+
+.twitter-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stay {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.twitter {
+  /* display: flex; */
+
+  /* flex-direction: row; */
+
+  /* justify-content: center; */
+}
+
+.copyright {
+  justify-content: center;
+  color: #ffffff;
+  /* align-content: center; */
 }
