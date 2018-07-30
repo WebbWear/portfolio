@@ -72,7 +72,7 @@ html {
   height: 1.5em;
   padding: 5em;
   background-color: #D1D4D6;
-  border-radius: 1em;
+  border-radius: .5em;
   padding-bottom: 2em;
   opacity: 0.85;
 
@@ -125,20 +125,20 @@ html {
   object-fit: cover;
   width: 225px;
   height: 160px;
-  border-radius: 1.0125em;
+  border-radius: .5em;
 
 }
 
 /* second section first paragraph */
 
-.main-container2 {
-  
-}
 
 .react {
   object-fit: cover;
   width: 100%;
   height: 5em;
+  margin-bottom: -.5em;
+  border-top-right-radius: .5em;
+  border-top-left-radius: .5em;
 }
 
 .header-container2 {
@@ -147,20 +147,41 @@ html {
   justify-content: flex-start;
   background-color: #ffffff;
   width: 100%;
-  height: 5em;
+  height: 2.5em;
+  padding-bottom: -5em;
+  
 }
 
 .react-text {
   color: #000000;
-  padding-left: 1.5em;
+  padding-left: 1.25em;
   font-weight: 900;
   font-size: 1.195em;
-
+  
 }
 
 .react-text-date {
-color: #19272C;
-padding-left: 1.5em;
-margin-bottom: -100em;
+  color: rgb(148, 150, 151);
+  padding-left: 1.5em;
+  padding-top: .3em;
+}
 
+.container2-body {
+  display: flex;
+  flex-direction: row;
+  
+  background-color: #ffffff;
+  width: 100%;
+  height: 4em;
+  padding-bottom: 2.5em; 
+  padding-left: 0em;
+  padding-right: -5em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+
+.react-body-text {
+  padding-left: 1.75em;
+  padding-right: 3em;
+  font-size: .75em;
 }
