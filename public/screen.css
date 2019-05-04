@@ -40,7 +40,7 @@ html {
   display: flex;
   padding-left: 12em;
   padding-top: 12em;
-  padding-bottom: 20em;
+  padding-bottom: 22em;
   padding-right: 5em;
   object-fit: cover;
   width: 50;
@@ -50,7 +50,8 @@ html {
 }
 
 .head {
-  border-radius: 1.1em;
+  /* border-radius: 1.1em; */
+  padding-bottom: 20%;
 
 }
 
